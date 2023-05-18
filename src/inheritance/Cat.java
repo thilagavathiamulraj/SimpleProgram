@@ -2,14 +2,20 @@ package inheritance;
 
 public class Cat extends Animals {
 
+    public static void main(String[] args) {
+        Animals cat = new Cat();
 
-    @Override
-    String eat() {
-        return "cat eats rat";
+
+        System.out.println(cat.eat());
+        System.out.println(cat.sleep());
     }
+        @Override
+        String eat () {
+            return "rat";
+        }
 
     @Override
     String sleep() {
-        return "cat snores while sleep";
+        return "snore";
     }
 }
