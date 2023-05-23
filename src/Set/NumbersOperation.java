@@ -3,6 +3,9 @@ package Set;
 import java.util.HashSet;
 import java.util.Set;
 
+
+
+
 public class NumbersOperation {
     public static void main(String[] args) {
 
@@ -18,6 +21,7 @@ public class NumbersOperation {
         for (Integer number : numbers) {
             System.out.println(number);
         }
+
         }
 
     }
