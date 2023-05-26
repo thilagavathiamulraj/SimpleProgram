@@ -19,7 +19,7 @@ public class MagnitudeCalculation {
 
         int length = 0;
         for (int i : vector) {
-            length = i * i;
+            length += i * i;
         }
 
         System.out.print(Math.sqrt(length));
