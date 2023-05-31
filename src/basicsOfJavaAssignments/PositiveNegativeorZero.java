@@ -6,7 +6,7 @@ public class PositiveNegativeorZero {
     /* This program finds the given number is Positive, Negative, or Zero.*/
     public static void main(String[] args) {
 
-        int i = -1;
+        int i = Integer.parseInt(args[0]);
 
         if (i < 0) {
 

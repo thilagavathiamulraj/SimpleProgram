@@ -5,7 +5,6 @@ package basicsOfJavaAssignments;
 public class PalindromeNumber {
 
     public static void main(String[] args){
-        /** palindrome number program in java*/
          int number = Integer.parseInt(args[0]);
          int remainder, revNumber = 0;
          int orgNumber = number;
